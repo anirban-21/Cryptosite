@@ -1,5 +1,6 @@
 
 import os
+import pylint
 from pathlib import Path
 import django_heroku
 from decouple import config 
@@ -18,7 +19,7 @@ SECRET_KEY = 'ag8ygoey_x(r03@fnat1*)yukpt8d$g0s*zfrh6egh49(l=!pr'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://salty-thicket-96462.herokuapp.com/']
+ALLOWED_HOSTS = []
 
 
 # Application definition
